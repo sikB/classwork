@@ -1,0 +1,99 @@
+#main-div{
+	margin: auto;
+	margin-top: 6%;
+	margin-left: 10%;
+
+}
+
+body{
+	color: #ccc;
+	text-align: center;
+
+}
+
+.image { 
+	margin: .2%;
+	margin-left: .2%;
+	padding: .2%;
+	height: 300px;
+	float: left;
+	width: 20%;
+	border: 1px solid black;
+	background-color: #ccc;	
+	
+}
+.image img{
+
+}
+
+img{
+	
+	
+}
+.two {
+	background-color: white;
+}
+.seven{
+	background-color: white;
+}
+.five{
+	clear: both;
+}
+.one img{
+	position: relative;
+	top: 45%;
+
+}
+
+.three img{
+	position: relative;
+	top: 45%;
+
+}
+.four img{
+	position: relative;
+	top: 45%;
+
+}
+.five img{
+	position: relative;
+	top: 45%;
+
+}
+.six img{
+	position: relative;
+	top: 45%;
+
+}
+.eight img{
+	position: relative;
+	top: 45%;
+
+}
+.blue{
+	background-color: #00ace6;
+	width: 1000%;
+	height: 240px;
+	border: 1px solid blue;
+	text-align: center;
+		float: bottom;
+	position: absolute;
+	bottom: 0%;
+}
+.text{
+	color: #00ace6;
+	position: absolute;
+	top: 9%;
+	left: 11%;
+	font-size: 20px;
+}
+.start-over{
+	background-color: red;
+	position: absolute;
+	top: 8%;
+	right: 16%;
+	color: white;
+	padding: .4%;
+	font-size: 18px;
+}
+
