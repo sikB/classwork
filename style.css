@@ -22,14 +22,7 @@ body{
 	background-color: #ccc;	
 	
 }
-.image img{
 
-}
-
-img{
-	
-	
-}
 .two {
 	background-color: white;
 }
@@ -75,8 +68,6 @@ img{
 	width: 1000%;
 	height: 240px;
 	border: 1px solid blue;
-	text-align: center;
-		float: bottom;
 	position: absolute;
 	bottom: 0%;
 }
