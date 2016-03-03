@@ -1,0 +1,19 @@
+<script type="text/javascript">
+
+var randomNumber = Math.random();
+var correctNumber = Math.round(randomNumber * 10);
+var userInput = prompt("Guess a number that I am thinking of 1-10");
+var safeUserInput = Number(userInput);
+if(isNaN(safeUserInput)){
+	alert("You must enter a number!");
+}
+else if(safeUserInput === correctNumber) {
+	alert("Thats correct!");
+}
+else if(Math.abs(safeUserInput - correctNumber) <=2){
+	alert("You were close the number was " + correctNumber);}
+else{alert("You are not close. The number was " + correctNumber);}
+	
+
+
+</script>

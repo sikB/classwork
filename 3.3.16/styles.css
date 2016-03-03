@@ -45,16 +45,18 @@ button{
 	clear: both;
 	overflow: hidden;
 
+
 }
 
 .tile{
 	float: left;
 	width: 25%;
-	height: 30%;
-	padding: 11%;
+	height: 25%;
+	padding: 10%;
 	position: relative;
 	box-sizing: border-box;
-	border: 5px solid #fff;
+	border: 2px solid #fff;
+
 
 
 }
