@@ -7,6 +7,9 @@ var safeUserInput = Number(userInput);
 if(isNaN(safeUserInput)){
 	alert("You must enter a number!");
 }
+else if ((safeUserInput > 1) || (safeUserInput > 10)){
+	alert("You must enter a number between 1-10");
+}
 else if(safeUserInput === correctNumber) {
 	alert("Thats correct!");
 }
