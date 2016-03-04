@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+
+
+<script type="text/javascript">
+
+// var randomNumber = Math.random();
+// var correctNumber = Math.round(randomNumber * 10);
+// var userInput = prompt("Guess a number that I am thinking of 1-10");
+// var safeUserInput = Number(userInput);
+// if(isNaN(safeUserInput)){
+// 	alert("You must enter a number!");
+// }
+// else if ((safeUserInput > 1) || (safeUserInput > 10)){
+// 	alert("You must enter a number between 1-10");
+// }
+// else if(safeUserInput === correctNumber) {
+// 	alert("Thats correct!");
+// }
+// else if(Math.abs(safeUserInput - correctNumber) <=2){
+// 	alert("You were close the number was " + correctNumber);}
+// else{alert("You are not close. The number was " + correctNumber);}
+	
+
+function throwDie(){
+	var randomDie = Math.round(Math.random()*5)+1;
+	var imageName = "d" + randomDie + ".gif";
+	console.log(imageName)
+	document.images['dice.roller'].src = imageName;
+}
+throwDie();
+
+</script>
+
+<div id="the-fight">
+	<img src="d1.gif" name="myDie1">
+	<img src="d1.gif" name="myDie2">
+
+	</div>
+
+	<body>
+
+</body>
+</html>
