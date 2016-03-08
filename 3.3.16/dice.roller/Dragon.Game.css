@@ -5,6 +5,7 @@ html{
 #the-fight{
 	margin: 0 auto;
 	max-width: 960px;
+	position: relative;
 
 }
 
@@ -25,6 +26,7 @@ button{
 img{
 	text-align: center;
 	float: center;
+
 }
 .dragon{
 	text-align: center;
@@ -86,16 +88,17 @@ span{
 
 #dragonhealth{
 	position: absolute;
-	right: 20%;
-	top: 12.8%;
+	right: -10%;
+	top: 17%;
+
 
 }
 
 .dragon-health{
 	color: white;
 	position: absolute;
-	right: 20%;
-	top: 12.8%;
+	right: -10%;
+	top: 18%;
 	font-size: 20px;
 
 }
